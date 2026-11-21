@@ -1,0 +1,13 @@
+# End-to-end keystroke-to-present latency (SC-009): open the 100k-character fixture and type 500 characters
+# at the end of a stable line. Paths are relative to this script's directory.
+open ../../fixtures/perf/100k.txt
+key home+ctrl
+repeat 5
+key down
+end
+key end
+repeat 10
+type  typing fifty characters into a stable line again
+end
+sample
+exit

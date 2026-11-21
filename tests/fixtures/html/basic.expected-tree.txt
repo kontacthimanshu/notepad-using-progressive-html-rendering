@@ -1,0 +1,13 @@
+html
+  head
+    title
+      #text "Basic & simple"
+  body
+    div#intro.lead
+      #text "Hello <PixelCSS> world"
+    p
+      #text "First paragraph"
+      br
+      #text "second line AB"
+    span
+      #text "inline \"quoted\" text"

@@ -1,0 +1,15 @@
+glyph {
+  --schema: "pixelcss-glyph/1";
+  --code-point: U+0057;
+  --family: "extra-pack";
+  --width: 3;
+  --height: 5;
+  --baseline: 5;
+  --advance: 4;
+  --rows:
+    "@ @ @"
+    "@ . @"
+    "@ @ @"
+    "@ . @"
+    "@ @ @";
+}

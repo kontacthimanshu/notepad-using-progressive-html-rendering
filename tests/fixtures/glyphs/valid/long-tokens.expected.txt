@@ -1,0 +1,8 @@
+codepoint U+0047
+width 3
+height 2
+baseline 2
+advance 4
+bearing 0
+row . @ .
+row @ . @

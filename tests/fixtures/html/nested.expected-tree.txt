@@ -1,0 +1,16 @@
+html
+  head
+  body
+    div.outer
+      p
+        #text "Para "
+        span
+          #text "one "
+          span.inner
+            #text "deep"
+          #text " end"
+      div
+        #text "Second "
+        b
+          #text "bold-ish"
+        #text " block"

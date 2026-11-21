@@ -1,0 +1,26 @@
+# Resource stability (Constitution XI): GDI/USER objects and handles must not grow across 50 cycles.
+# One warm-up cycle runs first so one-time lazy allocations (first file dialog state, first combo-box
+# selection, first DIB resize) are not mistaken for per-cycle leaks; growth is measured between the samples.
+open ../../fixtures/perf/100k.txt
+font arial-narrow-style
+font comic-style
+font verdana-style
+wrap off
+wrap on
+resize 800 600
+resize 1024 768
+new
+sample
+repeat 50
+open ../../fixtures/perf/100k.txt
+font arial-narrow-style
+font comic-style
+font verdana-style
+wrap off
+wrap on
+resize 800 600
+resize 1024 768
+new
+end
+sample
+exit

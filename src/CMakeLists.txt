@@ -1,0 +1,13 @@
+# Engine modules in dependency order (contracts/engine-interfaces.md).
+add_subdirectory(core)
+add_subdirectory(glyphcss)
+add_subdirectory(render)
+add_subdirectory(fonts)
+add_subdirectory(document)
+add_subdirectory(storage)
+add_subdirectory(layout)
+add_subdirectory(update)
+add_subdirectory(editor)
+add_subdirectory(presentcss)
+add_subdirectory(html)
+add_subdirectory(shell)

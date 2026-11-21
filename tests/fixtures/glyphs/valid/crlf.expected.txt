@@ -1,0 +1,8 @@
+codepoint U+004A
+width 2
+height 2
+baseline 2
+advance 3
+bearing 0
+row @ .
+row . @

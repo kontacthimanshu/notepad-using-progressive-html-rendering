@@ -1,0 +1,23 @@
+/* verdana-style f — original artwork, OFL-1.1 */
+glyph {
+  --schema: "pixelcss-glyph/1";
+  --code-point: U+0066;
+  --family: "verdana-style";
+  --width: 4;
+  --height: 11;
+  --baseline: 11;
+  --advance: 5;
+  --bearing-x: 1;
+  --rows:
+    ". . @ @"
+    ". @ . ."
+    ". @ . ."
+    ". @ . ."
+    "@ @ @ @"
+    ". @ . ."
+    ". @ . ."
+    ". @ . ."
+    ". @ . ."
+    ". @ . ."
+    ". @ . .";
+}

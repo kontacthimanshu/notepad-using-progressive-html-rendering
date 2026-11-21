@@ -1,0 +1,11 @@
+/* comments between rows */
+glyph {
+  --schema: "pixelcss-glyph/1"; /* schema */
+  --code-point: U+004B;
+  --family: "fixture-family";
+  --width: 2; --height: 3; --baseline: 3; --advance: 3;
+  --rows:
+    "@ @" /* top */
+    /* middle row next */ ". @"
+    "@ ." /* bottom */;
+}

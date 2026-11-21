@@ -1,0 +1,15 @@
+codepoint U+0043
+width 5
+height 9
+baseline 7
+advance 6
+bearing 1
+row @ @ @ @ @
+row @ . . . @
+row @ . . . @
+row @ . . . @
+row @ . . . @
+row @ . . . @
+row @ . . . @
+row @ . . . @
+row @ @ @ @ @

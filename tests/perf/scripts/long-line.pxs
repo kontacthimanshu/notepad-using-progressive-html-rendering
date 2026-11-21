@@ -1,0 +1,10 @@
+# Keystrokes in the middle of a 100,000-character single line (research R-13 incremental re-wrap).
+open ../../fixtures/perf/longline-100k.txt
+key home+ctrl
+repeat 40
+key right
+end
+repeat 4
+type xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+end
+exit

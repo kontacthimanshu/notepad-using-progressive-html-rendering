@@ -1,0 +1,11 @@
+codepoint U+0049
+width 1
+height 3
+baseline 3
+advance 2
+bearing -1
+row @
+row @
+row @
+meta designer x
+meta version 2

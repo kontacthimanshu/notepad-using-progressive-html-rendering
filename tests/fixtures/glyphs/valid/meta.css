@@ -1,0 +1,17 @@
+/* fixture */
+glyph {
+  --schema: "pixelcss-glyph/1";
+  --code-point: U+0049;
+  --family: "fixture-family";
+  --width: 1;
+  --height: 3;
+  --baseline: 3;
+  --advance: 2;
+  --bearing-x: -1;
+  --meta-designer: "x";
+  --meta-version: 2;
+  --rows:
+    "@"
+    "@"
+    "@";
+}

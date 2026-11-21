@@ -1,0 +1,7 @@
+html
+  head
+  body
+    div
+      #text "Text more"
+    p
+      #text "unclosed paragraph"

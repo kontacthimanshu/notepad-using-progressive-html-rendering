@@ -1,0 +1,22 @@
+/* Verdana-style pixel font pack — original artwork, an independent stylistic interpretation.
+   Not the Verdana typeface. */
+font-pack {
+  --schema: "pixelcss-pack/1";
+  --id: "verdana-style";
+  --display-name: "Verdana";
+  --style-description: "Wide, open, screen-oriented sans-serif pixel interpretation";
+  --version: "1.0.0";
+  --authenticity: "style-interpretation";
+  --origin: "Original pixel artwork created for PixelCSS Browser";
+  --author: "PixelCSS contributors";
+  --license: "OFL-1.1";
+  --license-file: "LICENSE.txt";
+  --line-height: 15;
+  --ascent: 11;
+  --descent: 3;
+  --coverage: U+0020-007E, U+FFFD;
+  --replacement-glyph: U+FFFD;
+  --glyph-dir: "glyphs";
+  --aliases: "Verdana", "verdana-style";
+  --order: 1;
+}

@@ -1,0 +1,7 @@
+codepoint U+0046
+width 2
+height 1
+baseline 1
+advance 3
+bearing 0
+row #ABCDEFFF #ABCDEF80

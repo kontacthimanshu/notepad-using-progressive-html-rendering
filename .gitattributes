@@ -1,0 +1,6 @@
+# Byte-exact test fixtures and golden images must never be line-ending converted.
+tests/fixtures/** -text
+tests/golden/** binary
+*.bmp binary
+# Glyph and manifest CSS are authored with LF.
+fonts/**/*.css text eol=lf

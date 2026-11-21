@@ -1,0 +1,22 @@
+/* Arial Narrow-style pixel font pack — original artwork, an independent stylistic interpretation.
+   Not the Arial Narrow typeface. */
+font-pack {
+  --schema: "pixelcss-pack/1";
+  --id: "arial-narrow-style";
+  --display-name: "Arial Narrow";
+  --style-description: "Condensed, space-efficient sans-serif pixel interpretation";
+  --version: "1.0.0";
+  --authenticity: "style-interpretation";
+  --origin: "Original pixel artwork created for PixelCSS Browser";
+  --author: "PixelCSS contributors";
+  --license: "OFL-1.1";
+  --license-file: "LICENSE.txt";
+  --line-height: 15;
+  --ascent: 11;
+  --descent: 3;
+  --coverage: U+0020-007E, U+FFFD;
+  --replacement-glyph: U+FFFD;
+  --glyph-dir: "glyphs";
+  --aliases: "Arial Narrow", "arial-narrow-style";
+  --order: 2;
+}

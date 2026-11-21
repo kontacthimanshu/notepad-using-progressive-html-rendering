@@ -1,0 +1,16 @@
+html
+  head
+    style
+  body
+    div#title
+      #text "Styled heading"
+    p
+      #text "Inherited "
+      span.narrow
+        #text "narrow text"
+      #text " and "
+      span.warn
+        #text "warning"
+      #text "."
+    p style="color: green; line-height: 20px"
+      #text "Inline style wins"

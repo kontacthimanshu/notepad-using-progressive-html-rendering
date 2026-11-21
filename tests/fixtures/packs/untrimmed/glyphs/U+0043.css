@@ -1,0 +1,16 @@
+glyph {
+  --schema: "pixelcss-glyph/1";
+  --code-point: U+0043;
+  --family: "untrimmed";
+  --width: 3;
+  --height: 6;
+  --baseline: 5;
+  --advance: 4;
+  --rows:
+    "@ @ @"
+    "@ . ."
+    "@ . ."
+    "@ . ."
+    "@ @ @"
+    ". . .";
+}

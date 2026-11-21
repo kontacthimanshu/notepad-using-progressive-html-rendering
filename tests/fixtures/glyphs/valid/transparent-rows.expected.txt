@@ -1,0 +1,10 @@
+codepoint U+0044
+width 3
+height 4
+baseline 3
+advance 4
+bearing 0
+row . . .
+row @ @ @
+row @ . @
+row . . .

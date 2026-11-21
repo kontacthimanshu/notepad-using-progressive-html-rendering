@@ -1,0 +1,11 @@
+glyph {
+  --schema: "pixelcss-glyph/1";
+  --code-point: U+0041;
+  --family: "fixture-family";
+  --width: 3;
+  --height: 2;
+  --baseline: 2;
+  --advance: 4;
+  --rows:
+    "@ . @"
+    ". @ .";

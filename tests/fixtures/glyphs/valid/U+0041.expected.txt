@@ -1,0 +1,16 @@
+codepoint U+0041
+width 7
+height 10
+baseline 10
+advance 8
+bearing 0
+row . . . @ . . .
+row . . . @ . . .
+row . . @ . @ . .
+row . . @ . @ . .
+row . @ . . . @ .
+row . @ . . . @ .
+row . @ @ @ @ @ .
+row @ . . . . . @
+row @ . . . . . @
+row @ . . . . . @

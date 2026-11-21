@@ -1,0 +1,20 @@
+/* comic-style # — original artwork, OFL-1.1 */
+glyph {
+  --schema: "pixelcss-glyph/1";
+  --code-point: U+0023;
+  --family: "comic-style";
+  --width: 8;
+  --height: 9;
+  --baseline: 10;
+  --advance: 9;
+  --rows:
+    ". . @ . . @ . ."
+    ". . @ . . @ . ."
+    "@ @ @ @ @ @ @ @"
+    ". . @ . . @ . ."
+    ". @ . . @ . . ."
+    ". @ . . @ . . ."
+    "@ @ @ @ @ @ @ @"
+    ". @ . . @ . . ."
+    ". @ . . @ . . .";
+}

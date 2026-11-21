@@ -1,0 +1,22 @@
+/* Comic Sans-style pixel font pack — original artwork, an independent stylistic interpretation.
+   Not the Comic Sans typeface. */
+font-pack {
+  --schema: "pixelcss-pack/1";
+  --id: "comic-style";
+  --display-name: "Comic Sans";
+  --style-description: "Informal, rounded, playful handwritten-style pixel interpretation";
+  --version: "1.0.0";
+  --authenticity: "style-interpretation";
+  --origin: "Original pixel artwork created for PixelCSS Browser";
+  --author: "PixelCSS contributors";
+  --license: "OFL-1.1";
+  --license-file: "LICENSE.txt";
+  --line-height: 16;
+  --ascent: 12;
+  --descent: 3;
+  --coverage: U+0020-007E, U+FFFD;
+  --replacement-glyph: U+FFFD;
+  --glyph-dir: "glyphs";
+  --aliases: "Comic Sans MS", "Comic Sans", "comic-style";
+  --order: 3;
+}

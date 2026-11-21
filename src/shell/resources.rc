@@ -1,0 +1,63 @@
+// PixelCSS.exe resources: menus and accelerators per contracts/ui-contract.md.
+#pragma code_page(65001)
+#include <windows.h>
+#include "resource.h"
+
+IDR_MAINMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",            IDM_NEW
+        MENUITEM "&Open...\tCtrl+O",        IDM_OPEN
+        MENUITEM "&Save\tCtrl+S",           IDM_SAVE
+        MENUITEM "Save &As...\tCtrl+Shift+S", IDM_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit\tAlt+F4",           IDM_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",           IDM_UNDO
+        MENUITEM "&Redo\tCtrl+Y",           IDM_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",            IDM_CUT
+        MENUITEM "&Copy\tCtrl+C",           IDM_COPY
+        MENUITEM "&Paste\tCtrl+V",          IDM_PASTE
+        MENUITEM "De&lete\tDel",            IDM_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All\tCtrl+A",     IDM_SELECTALL
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Page &Source	Ctrl+U",    IDM_VIEWSOURCE
+        MENUITEM SEPARATOR
+        MENUITEM "&Word Wrap",              IDM_WORDWRAP
+        MENUITEM "&Reload Fonts\tCtrl+Shift+R", IDM_RELOADFONTS
+        MENUITEM SEPARATOR
+        MENUITEM "Render &Statistics\tF12", IDM_STATS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Diagnostics...",         IDM_DIAGNOSTICS
+        MENUITEM "About &Fonts...",         IDM_ABOUTFONTS
+        MENUITEM SEPARATOR
+        MENUITEM "&About PixelCSS...",      IDM_ABOUT
+    END
+END
+
+IDR_ACCEL ACCELERATORS
+BEGIN
+    "N",       IDM_NEW,         VIRTKEY, CONTROL
+    "O",       IDM_OPEN,        VIRTKEY, CONTROL
+    "S",       IDM_SAVE,        VIRTKEY, CONTROL
+    "S",       IDM_SAVEAS,      VIRTKEY, CONTROL, SHIFT
+    "Z",       IDM_UNDO,        VIRTKEY, CONTROL
+    "Y",       IDM_REDO,        VIRTKEY, CONTROL
+    "Z",       IDM_REDO,        VIRTKEY, CONTROL, SHIFT
+    "X",       IDM_CUT,         VIRTKEY, CONTROL
+    "C",       IDM_COPY,        VIRTKEY, CONTROL
+    "V",       IDM_PASTE,       VIRTKEY, CONTROL
+    "A",       IDM_SELECTALL,   VIRTKEY, CONTROL
+    "R",       IDM_RELOADFONTS, VIRTKEY, CONTROL, SHIFT
+    "U",       IDM_VIEWSOURCE,  VIRTKEY, CONTROL
+    VK_F12,    IDM_STATS,       VIRTKEY
+END

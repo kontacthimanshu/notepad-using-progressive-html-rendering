@@ -424,3 +424,13 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+## PixelCSS Browser additions
+out/
+CMakeUserPresets.json
+*.pixelcss-tmp
+.vscode/
+.idea/
+*.tmp
+*.swp
+.DS_Store

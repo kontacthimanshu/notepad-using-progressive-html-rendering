@@ -1,0 +1,24 @@
+{
+  "measured": true,
+  "note": "Measured on the reference machine (docs/perf/reference-machine.md), Release x64, 2026-11-21. A metric more than 20% worse fails the perf gate on any machine; absolute R-17 budgets are enforced only with PIXELCSS_REFERENCE_MACHINE=1.",
+  "metrics": {
+    "bufferEditP95Us100k": 2.8,
+    "bufferEditP95Us1M": 4.0,
+    "cacheHitRate": 1.0,
+    "e2eLongLineP95Ms": 3.108,
+    "firstViewportMs": 1.3991,
+    "fontSwitchP95Ms": 1.021,
+    "idleMemoryMB100k": 12.3438,
+    "idleMemoryMB10M": 66.9414,
+    "keyToPresentP50Ms": 1.076,
+    "keyToPresentP95Ms": 1.584,
+    "longLineKeystrokeLayoutP95Ms": 2.7623,
+    "nonReflowEditLayoutP95Ms": 0.0272,
+    "rasterMissP95Us": 1.4,
+    "reflowKeystrokeP95Ms": 0.0523,
+    "scrollFrameP95Ms": 0.4235,
+    "stableKeystrokeP50Ms": 0.0162,
+    "stableKeystrokeP95Ms": 0.0346,
+    "startupMs": 51.9518
+  }
+}

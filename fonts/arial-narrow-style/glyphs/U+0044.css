@@ -1,0 +1,21 @@
+/* arial-narrow-style D — original artwork, OFL-1.1 */
+glyph {
+  --schema: "pixelcss-glyph/1";
+  --code-point: U+0044;
+  --family: "arial-narrow-style";
+  --width: 5;
+  --height: 10;
+  --baseline: 10;
+  --advance: 6;
+  --rows:
+    "@ @ @ . ."
+    "@ . . @ ."
+    "@ . . . @"
+    "@ . . . @"
+    "@ . . . @"
+    "@ . . . @"
+    "@ . . . @"
+    "@ . . . @"
+    "@ . . @ ."
+    "@ @ @ . .";
+}

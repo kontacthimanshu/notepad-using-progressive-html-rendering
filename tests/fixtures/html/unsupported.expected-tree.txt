@@ -1,0 +1,10 @@
+html
+  head
+    style
+  body
+    div
+      #text "Click "
+      a
+        #text "link text"
+    p
+      #text "After the image"

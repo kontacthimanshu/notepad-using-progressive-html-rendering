@@ -1,0 +1,10 @@
+# Runs TOOL with ARGS (a ;-list), expects exit code EXPECT_RC and stdout+stderr matching EXPECT_REGEX.
+execute_process(COMMAND "${TOOL}" ${ARGS} RESULT_VARIABLE rc OUTPUT_VARIABLE out ERROR_VARIABLE err)
+set(all "${out}${err}")
+if(NOT rc EQUAL EXPECT_RC)
+    message(FATAL_ERROR "expected exit code ${EXPECT_RC}, got ${rc}:\n${all}")
+endif()
+if(NOT all MATCHES "${EXPECT_REGEX}")
+    message(FATAL_ERROR "output does not match '${EXPECT_REGEX}':\n${all}")
+endif()
+message(STATUS "ok (exit ${rc})")

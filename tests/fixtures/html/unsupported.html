@@ -1,0 +1,9 @@
+<html><head>
+<link rel="stylesheet" href="http://example.invalid/x.css">
+<script>alert("hello"); document.write("<p>injected</p>");</script>
+<style>@import url("http://example.invalid/y.css"); div { display: flex; color: blue !important; }</style>
+</head><body>
+<div onclick="alert(1)">Click <a href="http://example.invalid/">link text</a></div>
+<img src="http://example.invalid/x.png">
+<p>After the image</p>
+</body></html>

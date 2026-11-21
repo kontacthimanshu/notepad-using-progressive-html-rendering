@@ -1,0 +1,8 @@
+codepoint U+0042
+width 3
+height 2
+baseline 2
+advance 4
+bearing 0
+row #FF0000FF #00FF00FF #0000FFFF
+row #FF0000FF @ #0000FFFF

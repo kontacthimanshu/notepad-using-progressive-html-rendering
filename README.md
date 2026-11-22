@@ -1,4 +1,4 @@
-# Niche Notepad (Because one can write niche in Nice notepad easily and other do not need Niche Notepad to read it, they just need a web browser.)
+# Niche Notepad (Because one can write niche in Nice Notepad easily and other do not need Niche Notepad to read it, they just need a web browser.)
 
 PixelCSS Browser is a lightweight native Windows notepad and restricted HTML viewer whose **document text is
 rendered entirely by its own software engine**. Each character of each font is a plain CSS file
